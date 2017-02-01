@@ -186,7 +186,7 @@ select>option{
 	border-top: 155px solid transparent;
 	border-right: 50px solid rgba( 255, 191, 9, 0.65);
 }
-.menu_honey li{
+.menu li{
 	min-width: 150px;
 	height: 40px;
 	text-align: center;
@@ -201,22 +201,24 @@ select>option{
 	margin-right: 15px;
 	position: relative;
 }
-.sale_honey h4{
+.sale h4{
 	font-size: 30px;
 	font-weight: 800;
 	text-align: center;
 }
-.sale_honey .price{
+.sale .price{
+	margin-left: 5px;
+	margin-right: 5px;
 	display: block;
 	border-radius: 10px;
 	background-color: rgba( 255, 191, 9, 0.65);
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 40px;
 	height: 40px;
 	text-align: center;
 	margin-top: 20px;
 }
-.menu_honey li:after{
+.menu li:after{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -226,13 +228,13 @@ select>option{
 	border-right: 35px solid transparent;
 	border-bottom: 40px solid rgba( 255, 191, 9, 0.65);
 }
-.menu_honey{
+.menu{
 	padding-left: 10%; 
 	padding-right: 10%;
 	width: 100%;
 
 }
-.menu_honey li:before{
+.menu li:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -249,7 +251,7 @@ select>option{
 	border-top: 40px solid #ffffff!important;
 }
 
-.menu_honey>.active{
+.menu>.active{
 	background-color: white;
 }
 
@@ -259,6 +261,7 @@ select>option{
   width: 300px; 
   height: 173.21px;
   margin: 86.60px 0;
+  margin-bottom: 150px;
   background-size: auto 346.4102px;
   background-position: center;
 }
@@ -323,10 +326,11 @@ select>option{
 .tab-content{
 	font-weight: 600;
 }
-.info_honey{
-	margin-top: 40px;
+.info_honey h3{
+	margin-top: 0px;
 }
 .info_honey{
+	margin-top: 40px;
 	border-radius: 10px;
 	padding: 15px;
 	color: #ffffff;
@@ -370,7 +374,10 @@ select>option{
 	display: inline-block;
 	text-align: center;
 }
-.sale_honey button{
+.sale h4{
+	color: #ffffff;
+}
+.sale button{
 	margin-left: 15px;
 	border-radius: 5px;
 	outline: none;
@@ -378,9 +385,32 @@ select>option{
 	background-color: #fff;
 	color: #333;
 }
-.sale_honey button:hover{
+.sale button:hover{
 	background-color: #F5FFAE;
 }
 .hide_text{
 	display: none;
+}
+#modal_honey .mass{
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+	color: #ffffff;
+}
+#modal_honey h5{
+	display: inline-block;
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	color: #5d3b30;
+}
+.honey_type{
+	pointer-events: none;
+	font-size: 23px!important;
+	background-color: #ffbf09;
+	padding: 0!important;
+	text-align: center;
 }
