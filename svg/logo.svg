@@ -1,0 +1,34 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="52" width="52" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_31">
+   <path stroke="#3c2923" fill="#e7edeb" stroke-width="1.5" stroke-opacity="null" d="m5.7377,22.247392l2.908245,-5.816494l7.755325,0l2.908245,5.816494l-2.908245,5.816489l-7.755325,0l-2.908245,-5.816489z" id="svg_6"/>
+   <path stroke="#3c2923" fill="#e7edeb" stroke-width="1.5" stroke-opacity="null" d="m29.136503,22.247397l2.908249,-5.816494l7.755316,0l2.908245,5.816494l-2.908245,5.81648l-7.755316,0l-2.908249,-5.81648z" id="svg_7"/>
+   <path stroke="#3c2923" fill="#ffbf09" stroke-width="1.5" stroke-opacity="null" d="m16.854956,16.210135l3.15217,-6.304341l8.405789,0l3.15217,6.304341l-3.15217,6.304341l-8.405789,0l-3.15217,-6.304341z" id="svg_8"/>
+   <path stroke="#3c2923" fill="#ffbf09" stroke-width="1.5" stroke-opacity="null" d="m16.832267,28.015385l2.788559,-5.516371l9.295185,0l2.788554,5.516371l-14.872298,0z" id="svg_9"/>
+   <path stroke="#3c2923" fill="#ffbf09" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m17.066639,28.070094l2.718834,6.493007l9.06277,0l2.718834,-6.493007l-14.500438,0z" id="svg_10"/>
+   <path stroke="#3c2923" fill="#ffbf09" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m19.819364,34.570952l4.499636,11.503624l4.499636,-11.503624l-8.999272,0z" id="svg_12"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="13.559326" y1="2.47028" x2="17.744079" y2="2.47028" id="svg_13" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="20.811851" y1="9.738537" x2="16.94174" y2="1.998316" id="svg_14" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="14.96735" y1="2.250029" x2="14.96735" y2="2.218565" id="svg_15" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="27.671072" y1="9.895859" x2="32.107542" y2="2.155637" id="svg_16" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="31.320932" y1="2.596137" x2="35.505686" y2="2.596137" id="svg_17" stroke-linejoin="null" stroke-linecap="null"/>
+   <path stroke="null" fill="#ccd7d9" stroke-width="1.5" d="m6.720336,22.253372l2.168074,4.924193l7.226945,0l2.168089,-4.924193" id="svg_18"/>
+   <path stroke="null" fill="#ccd7d9" stroke-width="1.5" d="m30.12979,22.253377l2.173977,4.924188l7.246613,0l2.173977,-4.924188l-11.594572,0l0.000005,0z" id="svg_19"/>
+   <ellipse stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="11.396151" cy="2.47028" id="svg_22" rx="0.015732"/>
+   <ellipse stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="14.78643" cy="2.470281" id="svg_23" rx="1.620412" ry="0.015732"/>
+   <ellipse stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="34.20778" cy="2.596138" id="svg_24" rx="1.620412" ry="0.015732"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="13.559326" y1="2.47028" x2="17.744079" y2="2.47028" id="svg_26" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="20.811851" y1="9.738537" x2="16.94174" y2="1.998316" id="svg_27" stroke-linejoin="null" stroke-linecap="null"/>
+   <line stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="14.96735" y1="2.250029" x2="14.96735" y2="2.218565" id="svg_28" stroke-linejoin="null" stroke-linecap="null"/>
+   <ellipse stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="11.396151" cy="2.47028" id="svg_29" rx="0.015732"/>
+   <ellipse stroke="#3c2923" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="14.78643" cy="2.470281" id="svg_30" rx="1.620412" ry="0.015732"/>
+  </g>
+ </g>
+</svg>
