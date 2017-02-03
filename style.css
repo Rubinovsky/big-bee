@@ -52,6 +52,12 @@ button{
 	background: rgba( 255, 191, 9, 0.65);
 	border-radius: 10px;
 }
+.city{
+	float: right;
+	font-size: 20px;
+	line-height: 80px;
+	font-weight: 600;
+}
 .modal-footer input[type="submit"]:focus{
 	background-color: #12a219;
 }
@@ -82,9 +88,9 @@ button{
 	border-radius: 50%;
 	border: none;
 }
-.modal-body input{
-	font-size: 15px;
-	font-weight: 700;
+.modal-body input[type="text"]{
+	font-size: 17px;
+	font-weight: 900;
 	color: #5d3b30;
 	padding-left: 20px;
 	border: none;
@@ -92,6 +98,13 @@ button{
 	border-radius: 10px;
 	width: 100%;
 	height: 50px;
+}
+.modal-body input[type="radio"]{
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.modal-body label{
+	padding-right: 20px;
 }
 select{
 	padding-left: 20px;
@@ -104,7 +117,6 @@ select{
 	font-size: 15px;
 	font-weight: 700;
 	color: #5d3b30;
-	margin-bottom: 20px;
 }
 select>option{
 	padding-top: 5px;
@@ -116,7 +128,7 @@ select>option{
 	width: 100%;
 	height: 50px;
 }
-.modal-body input:last-child{
+.modal-body input{
 	margin-top: 20px;
 }
 ::-webkit-input-placeholder{
@@ -190,7 +202,6 @@ select>option{
 	min-width: 150px;
 	height: 40px;
 	text-align: center;
-	width: 15%;
 	line-height: 40px;
 	display: inline-block;
 	font-weight: 900;
@@ -202,6 +213,7 @@ select>option{
 	position: relative;
 }
 .sale h4{
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
 	font-size: 30px;
 	font-weight: 800;
 	text-align: center;
@@ -337,6 +349,7 @@ select>option{
 	background: rgba( 255, 191, 9, 0.65);
 }
 .order{
+	text-align: center;
 	margin-top: 20px;
 	position: relative;
 	line-height: 40px;
@@ -391,13 +404,27 @@ select>option{
 .hide_text{
 	display: none;
 }
-#modal_honey .mass{
+.menu_wax{
+	padding-left: 15%;
+}
+#modal_honey .mass, .sum, .pay, .delivery{
 	margin-bottom: 5px;
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 	font-weight: 600;
 	color: #ffffff;
+}
+#modal_honey .sum{
+	padding-top: 10px;
+	font-size: 22px;
+}
+#modal_honey .pay,.delivery{
+	margin-top: 5px;
+	font-size: 17px;
+}
+.sum_honey{
+	margin-top: 0!important;
 }
 #modal_honey h5{
 	display: inline-block;
@@ -408,9 +435,212 @@ select>option{
 	color: #5d3b30;
 }
 .honey_type{
+	margin-top: 0!important;
 	pointer-events: none;
 	font-size: 23px!important;
 	background-color: #ffbf09;
 	padding: 0!important;
 	text-align: center;
+}.sum_honey{
+	height: 20px!important;
+	pointer-events: none;
+	background-color: #ffbf09;
+	padding: 0!important;
+	text-align: center;
+}
+.four_steps h5, .five_reasons h5{
+	margin-top: 20px;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+	font-weight: 900;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.four_steps div{
+	position: relative;
+	width: 24%;
+	height: 90px;
+	display: inline-block;
+	text-align: center;
+}
+.four_steps div i{
+	display: inline-block;
+	line-height: 90px;
+	color: #ffffff;
+	font-size: 70px;
+}
+.four_steps span:before{
+	top: -8px;
+	left: 80px;
+	position: absolute;
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 50px solid #ffffff;
+}
+.four_steps p{
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 17px;
+	margin: 0 auto;
+	width: 90%;
+	display: block;
+	height: 40px;
+}
+.line_1{
+	right: -115px;
+	top: 45px;
+	width: 79%;
+	height: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	display: block;
+}
+.line_2{
+	right: -100px;
+	top: 45px;
+	width: 77%;
+	height: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	display: block;
+}
+.line_3{
+	right: -112px;
+	top: 45px;
+	width: 75%;
+	height: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	display: block;
+}
+.reason{
+	color: #ffffff;
+	height: 150px;
+}
+.reason h6{
+	padding-left: 10px;
+	font-weight: 700;
+	font-size: 17px;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+.reason p{
+	padding-left: 5px;
+	display: inline-block;
+	font-weight: 700!important;
+	font-weight: 500;
+}
+.five_reasons{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background-color: rgba( 255, 191, 9, 0.65); 
+	display: inline-block;
+}
+
+
+
+footer{
+	color: #3c2923;
+	height: 50px;
+	background-color: #ffffff;
+}
+footer div{
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width:1200px)  {
+	.menu{
+		padding:0px;
+	}
+	.menu_wax{
+		padding-left: 8%;
+	}
+	.four_steps p{
+		font-size: 14px;
+	}
+	.line_1{
+		right: -100px;
+	}
+	.line_2{
+		right: -85px;
+	}
+	.line_3{
+		right: -90px;
+	}
+	.reason h6{
+		padding-left: 35px;
+		font-size: 15px;
+	}
+	.reason p{
+		padding-left: 30px;
+		font-size: 12px;
+	}
+	.info_shop{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+@media screen and (max-width:990px){
+	.city{
+		font-size: 15px;
+		float: left;
+	}
+	.menu li{
+		min-width: 109px;
+	}
+	.menu{
+		margin-bottom: 40px;
+	}
+	.hexagon{
+		margin: 60px auto!important;
+	}
+	.menu_wax{
+		padding-left: 0;
+	}
+	.four_steps p{
+		font-size: 11px;
+	}
+	.line_1{
+		right: -60px;
+		width: 63%;
+	}
+	.line_2{
+		right: -50px;
+		width: 65%;
+	}
+	.line_3{
+		right: -60px;
+		width: 65%;
+	}
+	.four_steps span:before{
+		left: 35px;
+	}
+	.reason img{
+		float: left;
+	}
+	.reason h6{
+		padding-left: 10px;
+		font-size: 17px
+	}
+	.reason p{
+		font-size: 14px;
+		padding-left: 5px;
+	}
+	.reason{
+		height: 120px;
+	}
+	footer div{
+		font-size: 16px;
+	}
 }

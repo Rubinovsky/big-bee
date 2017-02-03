@@ -1,0 +1,65 @@
+<?php
+Header("HTTP/1.1 404 Not Found");
+?>
+
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Error 404</title>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<style>
+		body{
+			text-align: center;
+			background-repeat: no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-image: url(images/wood.jpg);
+			font-family: 'Comfortaa', cursive;
+			background-attachment: fixed;
+		}
+		a{
+			color: #fff;
+		}
+		body>div{
+			padding-top: 100px;
+			background: rgba( 255, 191, 9, 0.65);;
+			width: 1000px;
+			display: block;
+			margin: auto;
+			padding-bottom: 80px;
+		}
+		.logo>a{
+			text-decoration: none;
+		}
+		.logo{
+			height: 80px;
+		}
+		.logo span{
+			color: #fff;
+			font-weight: 700;
+			line-height: 80px;
+			display: inline-block;
+			font-size: 30px;
+		}
+		span{
+			margin-bottom: 50px;
+			display: block;
+			color: #5d3b30;
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="logo">
+            <a href="http://big-bee.com">
+             <img src="svg/logo.svg" width="50px" height="50px" alt="Man-Bee">
+             <span>Man-Bee</span>
+            </a> 
+        </div>
+		<span>Помилка 404.</span>
+		<span>Сторінка не знайдена.<br>Будь ласка, перейдіть на нашу <a href="http://big-bee.com">головну</a> сторінку</span>	
+	</div>
+</body>
+</html>
