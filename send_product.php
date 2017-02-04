@@ -20,11 +20,11 @@
 	$sell_honey_s = "Купівля меду";
 
 
-	$message = "\n Тип меду:".$_POST['honey_type'].
+	$message =  " Товар:".$_POST['product_type'].
 				"\n Ім'я: ".$_POST['name'].
 				"\n Прізвище ".$_POST['last-name'].
 	            "\n Телефон: ".$_POST['phone-number'].
-	            "\n Загальна сума: ".	$_POST['sum_honey'].
+	            "\n Загальна сума: ".	$_POST['sum_product'].
 	            "\n Спосіб оплати: ". $pay.
 	            "\n Спосіб доставки: ". $delivery;
 

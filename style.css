@@ -83,6 +83,7 @@ button{
 .modal-content{
 	background-color: #ffbf09;
 	margin: auto;
+	width: 400px!important;
 }
 .modal-header button{
 	background-color: #d43a2a;
@@ -248,7 +249,7 @@ select>option{
 	content: "";
 	position: absolute;
 	top: 0;
-	right: -34px;
+	right: -35px;
 	width: 0;
 	height: 0;
 	border-right: 35px solid transparent;
@@ -261,7 +262,7 @@ select>option{
 	content: "";
 	position: absolute;
 	top: 0;
-	left: -34px;
+	left: -35px;
 	width: 0;
 	height: 0;
 	border-left: 35px solid transparent;
@@ -489,7 +490,7 @@ select>option{
 .menu_wax{
 	padding-left: 15%;
 }
-#modal_honey .mass, .sum, .pay, .delivery{
+#modal_sale .mass, .sum, .pay, .delivery{
 	margin-bottom: 5px;
 	display: inline-block;
 	width: 100%;
@@ -497,18 +498,15 @@ select>option{
 	font-weight: 600;
 	color: #ffffff;
 }
-#modal_honey .sum{
+#modal_sale .sum{
 	padding-top: 10px;
 	font-size: 22px;
 }
-#modal_honey .pay,.delivery{
+#modal_sale .pay,.delivery{
 	margin-top: 5px;
 	font-size: 17px;
 }
-.sum_honey{
-	margin-top: 0!important;
-}
-#modal_honey h5{
+#modal_sale h5{
 	display: inline-block;
 	width: 100%;
 	font-size: 25px;
@@ -516,14 +514,19 @@ select>option{
 	font-weight: 600;
 	color: #5d3b30;
 }
-.honey_type{
+.modal-dialog{
+ 	width: 400px!important;
+}
+.product_type{
 	margin-top: 0!important;
 	pointer-events: none;
 	font-size: 23px!important;
 	background-color: #ffbf09;
 	padding: 0!important;
 	text-align: center;
-}.sum_honey{
+}
+.sum_product{
+	margin-top: 0!important;
 	height: 20px!important;
 	pointer-events: none;
 	background-color: #ffbf09;

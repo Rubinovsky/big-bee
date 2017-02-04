@@ -1,4 +1,4 @@
-@media screen and (max-width:1200px)  {
+@media screen and (max-width:1200px){
 	.menu{
 		padding:0px;
 	}
@@ -85,7 +85,7 @@
 }
 
 @media screen and (max-width:767px) {
-
+	
 	.menu li{
 		margin-left: 25px;
 		margin-bottom: 5px;
@@ -143,6 +143,57 @@
 	}
 }
 @media screen and (max-width:550px){
+	#small_modal span{
+		font-size: 15px;
+	}
+	.modal-content,.modal-dialog{
+		width: 300px!important;
+	}
+	.modal-title {
+	    font-size: 13px;
+	}
+	.modal-body input[type="text"]{
+		font-size: 12px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 12px;
+	}
+	::-moz-placeholder{
+		font-size: 12px;
+	}/* Firefox 19+ */
+	:-moz-placeholder{
+		font-size: 12px;
+	}/* Firefox 18- */
+
+	:-ms-input-placeholder{
+		font-size: 12px;
+	}
+	#modal_sale .sum{
+		font-size: 15px;
+	}
+	#modal_sale .pay, .delivery{
+		font-size: 12px;
+	}
+	.product_type{
+		font-size: 19px!important;
+	}
+	select,select option{
+		height: 35px;
+		font-size: 12px;
+	}
+	.modal-body input {
+	    margin-top: 10px;
+	}
+	.modal-body input[type="text"]{
+		height: 35px;
+		font-size: 12px;
+	}
+	.modal-footer input[type="submit"]{
+		font-size: 13px;
+	}
+	.modal-title{
+		margin: 0;
+	}
 	.hexagon{
 		display: none;
 	}
@@ -259,6 +310,61 @@
 	}
 }
 @media screen and (max-width:380px){
+
+	#small_modal span{
+		font-size: 13px;
+	}
+	.modal-content,.modal-dialog{
+		width: 200px!important;
+	}
+	.modal-title {
+	    font-size: 10px;
+	}
+	.modal-body input[type="text"]{
+		font-size: 10px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 10px;
+	}
+	::-moz-placeholder{
+		font-size: 10px;
+	}/* Firefox 19+ */
+	:-moz-placeholder{
+		font-size: 10px;
+	}/* Firefox 18- */
+
+	:-ms-input-placeholder{
+		font-size: 10px;
+	}
+	#modal_sale .sum{
+		font-size: 13px;
+	}
+	#modal_sale .pay, .delivery{
+		font-size: 11px;
+	}
+	.product_type{
+		font-size: 15px!important;
+	}
+	select,select option{
+		height: 30px;
+		font-size: 10px;
+	}
+	.modal-body input {
+	    margin-top: 10px;
+	}
+	.modal-body label {
+    	font-size: 9px;
+    }
+	.modal-body input[type="text"]{
+		padding-left: 10px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.modal-footer input[type="submit"]{
+		width: 90%;
+		height: 30px;
+    	font-size: 11px;
+	}
 	.logo {
 	    display: block;
 	    height: 40px;
@@ -353,6 +459,57 @@
 	}
 }
 @media screen and (max-width:260px){
+	.modal-content,.modal-dialog{
+		width: 150px!important;
+	}
+	.modal-title {
+	    font-size: 8px;
+	}
+	.modal-header {
+		padding: 10px;
+	}
+	.modal-body{
+		padding: 10px;
+	}
+	.modal-body input[type="text"]{
+		font-size: 8px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 8px;
+	}
+	::-moz-placeholder{
+		font-size: 8px;
+	}/* Firefox 19+ */
+	:-moz-placeholder{
+		font-size: 8px;
+	}/* Firefox 18- */
+
+	:-ms-input-placeholder{
+		font-size: 8px;
+	}
+	#modal_sale .sum{
+		font-size: 8px;
+	}
+	#modal_sale .pay, .delivery{
+		font-size: 8px;
+	}
+	.product_type{
+		font-size: 12px!important;
+	}
+	select,select option{
+		height: 25px;
+		font-size: 8px;
+	}
+	.modal-body label{
+		font-size: 8px;
+	}
+	.modal-footer{
+		padding: 10px;
+	}
+	.modal-footer input[type="submit"] {
+	    height: 25px;
+	    font-size: 8px;
+	}
 	body{
 		font-size: 9px;
 	}
