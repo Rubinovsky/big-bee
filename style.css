@@ -7,13 +7,16 @@ body{
 	padding-right: 0 !important;
 	overflow-y: scroll!important;
 	font-family: 'Comfortaa', cursive;
+	overflow-x: hidden!important;
+}
+.hexagon_mob{
+	display: none;
 }
 .logo span{
 	font-weight: 700;
 	line-height: 80px;
 	display: inline-block;
 	font-size: 30px;
-	display: inline-block;
 	font-family: 'Indie Flower', cursive;
 }
 a{	
@@ -169,7 +172,18 @@ select>option{
 	font-weight: 700;
 	color: #FFFFFF;
 }
+.float-right{
+	float: right;
+}
+.info_shop h1{
+	font-size: 32px;
+}
+.info_shop h2{
+	font-size: 20px;
+	margin: 0;
+}
 .info_shop{
+	height: 153px;
 	margin-top: 80px;
 	color:#ffffff;
 	text-align: center;
@@ -234,23 +248,20 @@ select>option{
 	content: "";
 	position: absolute;
 	top: 0;
-	right: -35px;
+	right: -34px;
 	width: 0;
 	height: 0;
 	border-right: 35px solid transparent;
 	border-bottom: 40px solid rgba( 255, 191, 9, 0.65);
 }
 .menu{
-	padding-left: 10%; 
-	padding-right: 10%;
-	width: 100%;
 
 }
 .menu li:before{
 	content: "";
 	position: absolute;
 	top: 0;
-	left: -35px;
+	left: -34px;
 	width: 0;
 	height: 0;
 	border-left: 35px solid transparent;
@@ -334,6 +345,77 @@ select>option{
   z-index: 2;
   background: inherit;
 }	
+
+/*Hexagon mobile*/
+.hexagon_mob {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
+.hexTop_mob,
+.hexBottom_mob {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop_mob:after,
+.hexBottom_mob:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop_mob {
+  top: -53.0330px;
+}
+
+.hexTop_mob:after {
+  background-position: center top;
+}
+
+.hexBottom_mob {
+  bottom: -53.0330px;
+}
+
+.hexBottom_mob:after {
+  background-position: center bottom;
+}
+
+.hexagon_mob:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
+}
+
+
 
 .tab-content{
 	font-weight: 600;
@@ -464,6 +546,7 @@ select>option{
 	display: inline-block;
 	text-align: center;
 }
+
 .four_steps div i{
 	display: inline-block;
 	line-height: 90px;
@@ -482,14 +565,16 @@ select>option{
 	border-bottom: 10px solid transparent;
 	border-left: 50px solid #ffffff;
 }
+.wrap_p{
+	width: 100%;
+}
 .four_steps p{
+	width: 24%;
+	text-align: center;
+	display: inline-block;
 	font-weight: 600;
 	color: #ffffff;
 	font-size: 17px;
-	margin: 0 auto;
-	width: 90%;
-	display: block;
-	height: 40px;
 }
 .line_1{
 	right: -115px;
@@ -553,94 +638,4 @@ footer div{
 	text-align: center;
 	font-weight: 600;
 	font-size: 20px;
-}
-
-
-@media screen and (max-width:1200px)  {
-	.menu{
-		padding:0px;
-	}
-	.menu_wax{
-		padding-left: 8%;
-	}
-	.four_steps p{
-		font-size: 14px;
-	}
-	.line_1{
-		right: -100px;
-	}
-	.line_2{
-		right: -85px;
-	}
-	.line_3{
-		right: -90px;
-	}
-	.reason h6{
-		padding-left: 35px;
-		font-size: 15px;
-	}
-	.reason p{
-		padding-left: 30px;
-		font-size: 12px;
-	}
-	.info_shop{
-		margin-top: 10px;
-		margin-bottom: 30px;
-	}
-
-	
-}
-
-@media screen and (max-width:990px){
-	.city{
-		font-size: 15px;
-		float: left;
-	}
-	.menu li{
-		min-width: 109px;
-	}
-	.menu{
-		margin-bottom: 40px;
-	}
-	.hexagon{
-		margin: 60px auto!important;
-	}
-	.menu_wax{
-		padding-left: 0;
-	}
-	.four_steps p{
-		font-size: 11px;
-	}
-	.line_1{
-		right: -60px;
-		width: 63%;
-	}
-	.line_2{
-		right: -50px;
-		width: 65%;
-	}
-	.line_3{
-		right: -60px;
-		width: 65%;
-	}
-	.four_steps span:before{
-		left: 35px;
-	}
-	.reason img{
-		float: left;
-	}
-	.reason h6{
-		padding-left: 10px;
-		font-size: 17px
-	}
-	.reason p{
-		font-size: 14px;
-		padding-left: 5px;
-	}
-	.reason{
-		height: 120px;
-	}
-	footer div{
-		font-size: 16px;
-	}
 }
