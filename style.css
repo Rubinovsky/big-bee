@@ -1,13 +1,24 @@
 body{
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	-o-background-size: 100% 100%;  /* Opera 9.5+ */
+	-webkit-background-size:100% 100%; /* Safari 3+, Chrome */
+	-moz-background-size:100% 100%; /* Firefox 3.6+ */
+	-khtml-background-size:100% 100%; /* Konqueror */
+	background-size: 100% 100%;
+
 	background-attachment: fixed;	
 	background-image: url(images/wood.jpg);
 	padding-right: 0 !important;
 	overflow-y: scroll!important;
 	font-family: 'Comfortaa', cursive;
 	overflow-x: hidden!important;
+}
+.shares{
+	padding: 10px;
+	font-weight: 600;
+	text-align: center;
+	background-color: rgba( 255, 191, 9, 0.65);
+	color: #ffffff;
 }
 .hexagon_mob{
 	display: none;
@@ -195,7 +206,7 @@ select>option{
 }
 .info_shop:after{
 	top: -2px;
-	right: -50px;
+	right: -49.5px;
 	content: "";
 	position: absolute;
 	height: 0;
@@ -205,7 +216,7 @@ select>option{
 }
 .info_shop:before{
 	top: -2px;
-	left: -50px;
+	left: -49.5px;
 	content: "";
 	position: absolute;
 	height: 0;
@@ -226,6 +237,9 @@ select>option{
 	margin-left: 15px;
 	margin-right: 15px;
 	position: relative;
+}
+.menu_others li{
+	min-width:100px;
 }
 .sale h4{
 	text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
@@ -249,20 +263,17 @@ select>option{
 	content: "";
 	position: absolute;
 	top: 0;
-	right: -35px;
+	right: -34.5px;
 	width: 0;
 	height: 0;
 	border-right: 35px solid transparent;
 	border-bottom: 40px solid rgba( 255, 191, 9, 0.65);
 }
-.menu{
-
-}
 .menu li:before{
 	content: "";
 	position: absolute;
 	top: 0;
-	left: -35px;
+	left: -34.5px;
 	width: 0;
 	height: 0;
 	border-left: 35px solid transparent;
@@ -515,6 +526,7 @@ select>option{
 	color: #5d3b30;
 }
 .modal-dialog{
+	margin: auto;
  	width: 400px!important;
 }
 .product_type{
@@ -532,6 +544,10 @@ select>option{
 	background-color: #ffbf09;
 	padding: 0!important;
 	text-align: center;
+}
+
+.sale_others{
+
 }
 .four_steps h5, .five_reasons h5{
 	margin-top: 20px;
@@ -630,7 +646,9 @@ select>option{
 }
 
 
-
+footer i{
+	margin-left: 20px;
+}
 footer{
 	color: #3c2923;
 	height: 50px;

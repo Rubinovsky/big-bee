@@ -32,6 +32,7 @@
 }
 
 @media screen and (max-width:990px){
+		
 	.city{
 		font-size: 15px;
 	}
@@ -44,8 +45,14 @@
 	.hexagon{
 		margin: 60px auto!important;
 	}
+	.menu_others li{
+		margin-bottom: 5px;
+	}
 	.menu_wax{
 		padding-left: 0;
+	}
+	.pos_elem{
+		margin-left: 53px!important;
 	}
 	.four_steps p{
 		font-size: 11px;
@@ -82,11 +89,17 @@
 	footer div{
 		font-size: 16px;
 	}
+	footer i{
+		margin-left: 10px;
+	}
 }
 
 @media screen and (max-width:767px) {
-	
+	.pos_elem{
+		margin-left: 25px!important;
+	}
 	.menu li{
+		min-width: 120px;
 		margin-left: 25px;
 		margin-bottom: 5px;
 	}
@@ -123,6 +136,12 @@
 	}
 }
 @media screen and (max-width:650px){
+	.shares h4{
+		font-size: 15px;
+	}
+	.shares h5{
+		font-size: 12px;
+	}
 	.pas{
 		display: none;
 	}
@@ -143,6 +162,7 @@
 	}
 }
 @media screen and (max-width:550px){
+
 	#small_modal span{
 		font-size: 15px;
 	}
@@ -207,7 +227,7 @@
 		font-size: 20px;
 	}
 	body{
-		line-height: 1,1;
+		line-height: 11px;
 		font-size: 11px;
 	}
 	.menu{
@@ -233,7 +253,11 @@
 		margin-bottom: 10px;
 	}
 	.menu li{
+		min-width: 155px;
 		font-size: 15px;
+	}
+	.pos_elem{
+		margin-left: 12%!important;
 	}
 	.sale .price{
 		font-size: 12px;
@@ -245,16 +269,28 @@
 		display: none;
 	}
 	.reason h6{
+		padding-left: 15px;
 		font-size: 12px;
 	}
 	.reason p{
+		padding-left: 20px;
 		font-size: 11px;
 	}
 	.reason img{
 		height: 80px;
 	}
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:420px){ 
+	body{
+		background-image: none;
+		background-image: url(../images/wood_b.png);
+	}
+	.shares h4{
+		font-size: 12px;
+	}
+	.shares h5{
+		font-size: 9px;
+	}
 
 	.wrap_call a{
 		font-size: 20px;
@@ -286,6 +322,7 @@
 		font-size: 20px;
 	}
 	.logo img{
+		height: 35px;
 		width: 35px;
 	}
 	.city{
@@ -459,6 +496,12 @@
 	}
 }
 @media screen and (max-width:260px){
+	.shares h4{
+		font-size: 9px;
+	}
+	.shares h5{
+		font-size: 7px;
+	}
 	.modal-content,.modal-dialog{
 		width: 150px!important;
 	}
