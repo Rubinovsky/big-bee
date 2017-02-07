@@ -29,6 +29,12 @@ $(document).ready(function(){
 	    				return false;
 	    			}
 	    		}
+	    		if ($(".to_other :first").hasClass("option_pos")) {
+		    		$(".to_other :first").remove();
+		    		$(".to_other :first").remove();
+		    		$(".to_other :first").remove();
+		    		$(".to_other").prepend( $('<option value="0">Виберіть масу продукту</option>'));
+		    	}
 	            var form_data = $("#product_form").serialize(); 
 	            $.ajax({
 		            type: "POST", 
@@ -52,7 +58,7 @@ $(document).ready(function(){
 	    	$(".to_other :first").remove();
 			$(".to_other").prepend( $('<option value="5">5 г</option>'));
 	    	$(".to_other").prepend( $('<option value="1">1 г</option>'));
-	    	$(".to_other").prepend( $('<option value="0">Виберіть масу продукту</option>'));
+	    	$(".to_other").prepend( $('<option class="option_pos" value="0">Виберіть масу продукту</option>'));
 			$(".to_other :first").attr("selected", "selected");
 	    })
 	    $('.order').click(function(){
@@ -116,7 +122,7 @@ $(document).ready(function(){
 	    			$(".sum_product").val("");
 	    			$(".modal-body .to_other").val(0);
 		    		$(".modal-body .to_other").change(function(){
-		    			if($(".modal-body select").val() == 0){
+		    			if($(".modal-body .to_other").val() == 0){
 		    				$(".sum_product").val(" ");
 		    			}
 		    			else if($(".modal-body .to_other").val() >= 1 && $(".modal-body .to_other").val() <= 1000){
@@ -181,10 +187,10 @@ $(document).ready(function(){
 		    		calc_w(300);
 		    		break;
 		    	case "Збірний пасечний віск":
-		    		calc_w(130);
+		    		calc_w(200);
 		    		break;
 		    	case "Збірний віск":
-		    		calc_w(130);
+		    		calc_w(200);
 		    		break;
 		    	case "Пресовий віск":
 		    		calc_w(130);

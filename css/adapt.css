@@ -1,406 +1,394 @@
-@media screen and (max-width:1200px){
-	.menu{
-		padding:0px;
+@media screen and (max-width:1200px) {
+    .menu {
+    padding: 0;
 	}
-	.menu_wax{
-		padding-left: 8%;
+	.menu_wax {
+	    padding-left: 8%}
+	.four_steps p {
+	    font-size: 14px;
 	}
-	.four_steps p{
-		font-size: 14px;
+	.line_1 {
+	    right: -100px;
 	}
-	.line_1{
-		right: -100px;
+	.line_2 {
+	    right: -85px;
 	}
-	.line_2{
-		right: -85px;
+	.line_3 {
+	    right: -90px;
 	}
-	.line_3{
-		right: -90px;
+	.reason h6 {
+	    padding-left: 35px;
+	    font-size: 15px;
 	}
-	.reason h6{
-		padding-left: 35px;
-		font-size: 15px;
+	.reason p {
+	    padding-left: 30px;
+	    font-size: 12px;
 	}
-	.reason p{
-		padding-left: 30px;
-		font-size: 12px;
-	}
-	.info_shop{
-		margin-top: 10px;
-		margin-bottom: 30px;
+	.info_shop {
+	    margin-top: 10px;
+	    margin-bottom: 30px;
 	}
 }
-
-@media screen and (max-width:990px){
-		
-	.city{
+@media screen and (max-width:990px) {
+	.city {
+		text-align: left;
+	    font-size: 15px;
+	}
+	.menu li {
+	    min-width: 109px;
+	}
+	.menu {
+	    margin-bottom: 40px;
+	}
+	.feedback a{
+		width: 160px;
 		font-size: 15px;
 	}
-	.menu li{
-		min-width: 109px;
+	.hexagon {
+	    margin: 60px auto!important;
 	}
-	.menu{
-		margin-bottom: 40px;
+	.menu_others li {
+	    margin-bottom: 5px;
 	}
-	.hexagon{
-		margin: 60px auto!important;
+	.menu_wax {
+	    padding-left: 0;
 	}
-	.menu_others li{
-		margin-bottom: 5px;
+	.pos_elem {
+	    margin-left: 53px!important;
 	}
-	.menu_wax{
-		padding-left: 0;
+	.four_steps p {
+	    font-size: 11px;
 	}
-	.pos_elem{
-		margin-left: 53px!important;
+	.line_1 {
+	    right: -60px;
+	    width: 63%}
+	.line_2 {
+	    right: -50px;
+	    width: 65%}
+	.line_3 {
+	    right: -60px;
+	    width: 65%}
+	.four_steps span:before {
+	    left: 35px;
 	}
-	.four_steps p{
-		font-size: 11px;
+	.reason img {
+	    float: left;
 	}
-	.line_1{
-		right: -60px;
-		width: 63%;
+	.reason h6 {
+	    padding-left: 10px;
+	    font-size: 17px;
 	}
-	.line_2{
-		right: -50px;
-		width: 65%;
+	.reason p {
+	    font-size: 14px;
+	    padding-left: 5px;
 	}
-	.line_3{
-		right: -60px;
-		width: 65%;
+	.reason {
+	    height: 120px;
 	}
-	.four_steps span:before{
-		left: 35px;
+	footer div {
+	    font-size: 16px;
 	}
-	.reason img{
-		float: left;
+	footer i {
+	    margin-left: 10px;
 	}
-	.reason h6{
-		padding-left: 10px;
-		font-size: 17px
+}
+@media screen and (max-width:767px) {
+    .pos_elem {
+    	margin-left: 25px!important;
 	}
-	.reason p{
-		font-size: 14px;
-		padding-left: 5px;
+	.menu li {
+	    min-width: 120px;
+	    margin-left: 25px;
+	    margin-bottom: 5px;
 	}
-	.reason{
-		height: 120px;
-	}
-	footer div{
+	.feedback a{
+		width: 200px;
 		font-size: 16px;
 	}
-	footer i{
-		margin-left: 10px;
-	}
-}
-
-@media screen and (max-width:767px) {
-	.pos_elem{
-		margin-left: 25px!important;
-	}
-	.menu li{
-		min-width: 120px;
-		margin-left: 25px;
-		margin-bottom: 5px;
-	}
 	.menu li:after {
-		right: -25px;
-		border-top: 20px solid transparent;
-		border-bottom: 20px solid transparent;
-		border-left: 25px solid rgba( 255, 191, 9, 0.65);
-		border-right:none;
+	    right: -25px;
+	    border-top: 20px solid transparent;
+	    border-bottom: 20px solid transparent;
+	    border-left: 25px solid rgba(255, 191, 9, .65);
+	    border-right: none;
 	}
-	.menu li:before{
-		left: -25px;
-		border-left: none;
-		border-top: 20px solid transparent;
-		border-bottom: 20px solid transparent;
-		border-right: 25px solid rgba( 255, 191, 9, 0.65);
+	.menu li:before {
+	    left: -25px;
+	    border-left: none;
+	    border-top: 20px solid transparent;
+	    border-bottom: 20px solid transparent;
+	    border-right: 25px solid rgba(255, 191, 9, .65);
 	}
-	.active:after{
-		border-bottom: 20px solid transparent!important;
-		border-left: 25px solid #ffffff!important;
+	.active:after {
+	    border-bottom: 20px solid transparent!important;
+	    border-left: 25px solid #fff!important;
 	}
-	.active:before{
-		border-top: 20px solid transparent!important;
-		border-right: 25px solid #ffffff!important;
+	.active:before {
+	    border-top: 20px solid transparent!important;
+	    border-right: 25px solid #fff!important;
 	}
-	.sale h4{
-		margin-bottom: 35px;
+	.sale h4 {
+	    margin-bottom: 35px;
 	}
-	.float-right{
-		float: left!important;
+	.float-right {
+	    float: left!important;
 	}
-	footer{
-		height: auto;
+	footer {
+	    height: auto;
 	}
 }
-@media screen and (max-width:650px){
-	.shares h4{
-		font-size: 15px;
+@media screen and (max-width:650px) {
+    .shares h4 {
+	    font-size: 15px;
 	}
-	.shares h5{
-		font-size: 12px;
+	.shares h5 {
+	    font-size: 12px;
 	}
-	.pas{
-		display: none;
+	.pas {
+	    display: none;
 	}
-	.four_steps span:before{
-		left: 20px;
+	.four_steps span:before {
+	    left: 20px;
 	}
-	.line_1{
-		right: -50px;
-		width: 58%;
+	.line_1 {
+	    right: -50px;
+	    width: 58%
 	}
 	.line_2 {
 	    right: -34px;
-	    width: 54%;
+	    width: 54%
 	}
 	.line_3 {
-		right: -51px;
-		width: 55%;
+	    right: -51px;
+	    width: 55%
 	}
 }
-@media screen and (max-width:550px){
-
-	#small_modal span{
-		font-size: 15px;
+@media screen and (max-width:550px) {
+    #small_modal span {
+	    font-size: 15px;
 	}
-	.modal-content,.modal-dialog{
-		width: 300px!important;
+	.modal-content, .modal-dialog {
+	    width: 300px!important;
 	}
 	.modal-title {
 	    font-size: 13px;
 	}
-	.modal-body input[type="text"]{
-		font-size: 12px;
+	::-webkit-input-placeholder {
+	    font-size: 12px;
 	}
-	::-webkit-input-placeholder{
-		font-size: 12px;
+	::-moz-placeholder {
+	    font-size: 12px;
 	}
-	::-moz-placeholder{
-		font-size: 12px;
-	}/* Firefox 19+ */
-	:-moz-placeholder{
-		font-size: 12px;
-	}/* Firefox 18- */
-
-	:-ms-input-placeholder{
-		font-size: 12px;
+	:-moz-placeholder {
+	    font-size: 12px;
 	}
-	#modal_sale .sum{
-		font-size: 15px;
+	:-ms-input-placeholder {
+	    font-size: 12px;
 	}
-	#modal_sale .pay, .delivery{
-		font-size: 12px;
+	#modal_sale .sum {
+	    font-size: 15px;
 	}
-	.product_type{
-		font-size: 19px!important;
+	#modal_sale .pay, .delivery {
+	    font-size: 12px;
 	}
-	select,select option{
-		height: 35px;
-		font-size: 12px;
+	.product_type {
+	    font-size: 19px!important;
+	}
+	select, select option {
+	    height: 35px;
+	    font-size: 12px;
 	}
 	.modal-body input {
 	    margin-top: 10px;
 	}
-	.modal-body input[type="text"]{
-		height: 35px;
-		font-size: 12px;
+	.modal-body input[type=text] {
+	    height: 35px;
+	    font-size: 12px;
 	}
-	.modal-footer input[type="submit"]{
-		font-size: 13px;
+	.modal-footer input[type=submit] {
+	    font-size: 13px;
 	}
-	.modal-title{
-		margin: 0;
+	.modal-title {
+	    margin: 0;
 	}
-	.hexagon{
-		display: none;
+	.hexagon {
+	    display: none;
 	}
-	.hexagon_mob{
-		display: block;
+	.hexagon_mob {
+	    display: block;
 	}
-	.info_honey{
-		margin-top: 0;
+	.info_honey {
+	    margin-top: 0;
 	}
-	.info_honey h3{
-		font-size: 20px;
+	.info_honey h3 {
+	    font-size: 20px;
 	}
-	body{
-		line-height: 11px;
-		font-size: 11px;
+	body {
+	    line-height: 11px;
+	    font-size: 11px;
 	}
-	.menu{
-		margin-bottom: 10px;
+	.menu {
+	    margin-bottom: 10px;
 	}
-	.info_shop:after{
-		content: none;
+	.info_shop:after, .info_shop:before {
+	    content: none;
 	}
-	.info_shop:before{
-		content: none;
+	.info_shop h1 {
+	    font-size: 25px;
+	    margin-bottom: 20px;
 	}
-	.info_shop h1{
-		font-size: 25px;
-		margin-bottom: 20px;
+	.info_shop h2 {
+	    font-size: 15px;
 	}
-	.info_shop h2{
-		font-size: 15px;
+	.five_reasons h5, .four_steps h5, .sale h4 {
+	    font-size: 25px;
 	}
-	.sale h4,.four_steps h5,.five_reasons h5{
-		font-size: 25px;
+	.info_shop {
+	    margin-bottom: 10px;
 	}
-	.info_shop{
-		margin-bottom: 10px;
+	.menu li {
+	    min-width: 155px;
+	    font-size: 15px;
 	}
-	.menu li{
-		min-width: 155px;
-		font-size: 15px;
+	.pos_elem {
+	    margin-left: 12%!important;
 	}
-	.pos_elem{
-		margin-left: 12%!important;
+	.sale .price {
+	    font-size: 12px;
 	}
-	.sale .price{
-		font-size: 12px;
+	.four_steps p {
+	    font-size: 10px;
 	}
-	.four_steps p{
-		font-size: 10px;
+	.line_1, .line_2, .line_3 {
+	    display: none;
 	}
-	.line_1,.line_2,.line_3{
-		display: none;
+	.reason h6 {
+	    padding-left: 15px;
+	    font-size: 12px;
 	}
-	.reason h6{
-		padding-left: 15px;
-		font-size: 12px;
+	.reason p {
+	    padding-left: 20px;
+	    font-size: 11px;
 	}
-	.reason p{
-		padding-left: 20px;
-		font-size: 11px;
-	}
-	.reason img{
-		height: 80px;
+	.reason img {
+	    height: 80px;
 	}
 }
-@media screen and (max-width:420px){ 
-	body{
-		background-image: none;
-		background-image: url(../images/wood_b.png);
+@media screen and (max-width:420px) {
+    .shares h4 {
+	    font-size: 12px;
 	}
-	.shares h4{
-		font-size: 12px;
+	.shares h5 {
+	    font-size: 9px;
 	}
-	.shares h5{
-		font-size: 9px;
+	.wrap_call a {
+	    font-size: 20px;
 	}
-
-	.wrap_call a{
-		font-size: 20px;
+	.feedback a {
+	    font-size: 13px;
+	    height: 40px;
+	    line-height: 40px;
+	    width: 150px;
 	}
-	.feedback a{
-		font-size: 13px;
-		height: 40px;
-    	line-height: 40px;
-    	width: 150px;
+	.info_shop {
+	    height: 125px;
 	}
-	.info_shop{
-		height: 125px;
+	.info_shop h1 {
+	    font-size: 18px;
+	    margin-bottom: 17px;
 	}
-	.info_shop h1{
-		font-size: 18px;
-   		margin-bottom: 17px;
+	.info_shop h2 {
+	    font-size: 13px;
 	}
-	.info_shop h2{
-		font-size: 13px;
-	}
-	.feedback{
-		margin-top: 20px;
+	.feedback {
+	    margin-top: 20px;
 	}
 	.logo {
 	    height: 40px;
 	}
-	.logo span{
-		line-height: 40px;
-		font-size: 20px;
+	.logo span {
+	    line-height: 40px;
+	    font-size: 20px;
 	}
-	.logo img{
-		height: 35px;
-		width: 35px;
+	.logo img {
+	    height: 35px;
+	    width: 35px;
 	}
-	.city{
-		line-height: 40px;
-		font-size: 12px;
+	.city {
+	    line-height: 40px;
+	    font-size: 12px;
 	}
-	.four_steps h5,.five_reasons h5{
-		font-size: 20px;
+	.five_reasons h5, .four_steps h5 {
+	    font-size: 20px;
 	}
 	.reason {
-    	height: 85px;
+	    height: 85px;
 	}
-	.reason h6{
-		margin-top: 0;
-		font-size: 10px;
-	}
-	.reason p{
-		font-size: 9px;
-	}
-	.reason img{
-		height: 60px;
-	}
-}
-@media screen and (max-width:380px){
-
-	#small_modal span{
-		font-size: 13px;
-	}
-	.modal-content,.modal-dialog{
-		width: 200px!important;
-	}
-	.modal-title {
+	.reason h6 {
+	    margin-top: 0;
 	    font-size: 10px;
 	}
-	.modal-body input[type="text"]{
-		font-size: 10px;
+	.reason p {
+	    font-size: 9px;
 	}
-	::-webkit-input-placeholder{
-		font-size: 10px;
+	.reason img {
+	    height: 60px;
 	}
-	::-moz-placeholder{
-		font-size: 10px;
-	}/* Firefox 19+ */
-	:-moz-placeholder{
-		font-size: 10px;
-	}/* Firefox 18- */
-
-	:-ms-input-placeholder{
-		font-size: 10px;
+}
+@media screen and (max-width:380px) {
+    body {
+	    background-image: none;
+	    background-image: url(../images/wood_b.png);
 	}
-	#modal_sale .sum{
-		font-size: 13px;
+	#small_modal span {
+	    font-size: 13px;
 	}
-	#modal_sale .pay, .delivery{
-		font-size: 11px;
+	.modal-content, .modal-dialog {
+	    width: 200px!important;
 	}
-	.product_type{
-		font-size: 15px!important;
+	.modal-body input[type=text], .modal-title {
+	    font-size: 10px;
 	}
-	select,select option{
-		height: 30px;
-		font-size: 10px;
+	::-webkit-input-placeholder {
+	    font-size: 10px;
+	}
+	::-moz-placeholder {
+	    font-size: 10px;
+	}
+	:-moz-placeholder {
+	    font-size: 10px;
+	}
+	:-ms-input-placeholder {
+	    font-size: 10px;
+	}
+	#modal_sale .sum {
+	    font-size: 13px;
+	}
+	#modal_sale .pay, .delivery {
+	    font-size: 11px;
+	}
+	.product_type {
+	    font-size: 15px!important;
+	}
+	select, select option {
+	    height: 30px;
+	    font-size: 10px;
 	}
 	.modal-body input {
 	    margin-top: 10px;
 	}
 	.modal-body label {
-    	font-size: 9px;
-    }
-	.modal-body input[type="text"]{
-		padding-left: 10px;
-		height: 30px;
-		font-size: 12px;
+	    font-size: 9px;
 	}
-	.modal-footer input[type="submit"]{
-		width: 90%;
-		height: 30px;
-    	font-size: 11px;
+	.modal-body input[type=text] {
+	    padding-left: 10px;
+	    height: 30px;
+	    font-size: 12px;
+	}
+	.modal-footer input[type=submit] {
+	    width: 90%;
+	    height: 30px;
+	    font-size: 11px;
 	}
 	.logo {
 	    display: block;
@@ -408,161 +396,137 @@
 	    width: 120px;
 	    margin: 0 auto;
 	}
-	.pas{
-		display: inline;
+	.pas {
+	    display: inline;
 	}
-	.feedback a {
-	    font-size: 9px;
-	    height: 25px;
-	    line-height: 25px;
-	    width: 100px;
+	.four_steps p {
+	    width: 100%}
+	.four_steps div {
+	    display: none;
 	}
-	.four_steps p{
-		width: 100%;
-	}
-	.four_steps div{
-		display: none;
-	}
-	.order:before{
-		content: none;
-	}
-	.order:after{
-		content: none;
+	.order:after, .order:before {
+	    content: none;
 	}
 	.menu li {
 	    margin-left: 12%;
 	    width: 76%;
 	    font-size: 15px;
-	    margin-right: 12%;
+	    margin-right: 12%}
+	.menu {
+	    width: 100%}
+	.norm, .norm_h {
+	    width: 100%;
+	    margin: 0;
 	}
-	.menu{
-		width: 100%;
+	.wrap_call a {
+	    font-size: 15px;
+	    line-height: 40px;
 	}
-	.norm{
-		width: 100%;
-		margin: 0;
+	.feedback {
+	    margin: 0;
 	}
-	.norm_h{
-		width: 100%;
-		margin: 0;
-	}
-	.wrap_call a{
-		font-size: 15px;
-		line-height: 40px;
-	}
-	.feedback{
-		margin: 0;
-	}
-	.feedback a{
-		margin: 0 auto;
-		font-size: 11px;
+	.feedback a {
+	    margin: 0 auto;
+	    font-size: 11px;
 	    height: 30px;
 	    line-height: 30px;
 	    width: 125px;
 	}
-	.info_shop h1{
-		font-size: 14px;
-		margin: 5px 0;
+	.info_shop h1 {
+	    font-size: 14px;
+	    margin: 5px 0;
 	}
-	.info_shop h2{
-		margin-top: 10px;
-		font-size: 9px;
+	.info_shop h2 {
+	    margin-top: 10px;
+	    font-size: 9px;
 	}
-	.info_shop{
-		height: 80px;
+	.info_shop {
+	    height: 80px;
 	}
-	.sale h4,.four_steps h5,.five_reasons h5{
-		font-size: 20px;
+	.five_reasons h5, .four_steps h5, .sale h4 {
+	    font-size: 20px;
 	}
-	.reason p{
-		font-size: 7px;
+	.reason p {
+	    font-size: 7px;
 	}
-	.reason img{
-		height: 50px;
+	.reason img {
+	    height: 50px;
 	}
 	.city {
-		text-align: center;
-		height: 30px;
-		float: left;
-		width: 80%;
-		margin: 0 10%;
-	}
-	.wrap_call a{
-		text-align: center;
-		height: 30px;
-		width: 80%;
-		margin: 0 10%;
-		float: left;	
+	    text-align: center;
+	    height: 30px;
+	    float: left;
+	    width: 80%;
+	    margin: 0 10%}
+	.wrap_call a {
+	    text-align: center;
+	    height: 30px;
+	    width: 80%;
+	    margin: 0 10%;
+	    float: left;
 	}
 }
-@media screen and (max-width:260px){
-	.shares h4{
-		font-size: 9px;
+@media screen and (max-width:260px) {
+    .shares h4 {
+	    font-size: 9px;
 	}
-	.shares h5{
-		font-size: 7px;
+	.shares h5 {
+	    font-size: 7px;
 	}
-	.modal-content,.modal-dialog{
-		width: 150px!important;
+	.modal-content, .modal-dialog {
+	    width: 150px!important;
 	}
 	.modal-title {
 	    font-size: 8px;
 	}
-	.modal-header {
-		padding: 10px;
+	.modal-body, .modal-header {
+	    padding: 10px;
 	}
-	.modal-body{
-		padding: 10px;
+	.modal-body input[type=text] {
+	    font-size: 8px;
 	}
-	.modal-body input[type="text"]{
-		font-size: 8px;
+	::-webkit-input-placeholder {
+	    font-size: 8px;
 	}
-	::-webkit-input-placeholder{
-		font-size: 8px;
+	::-moz-placeholder {
+	    font-size: 8px;
 	}
-	::-moz-placeholder{
-		font-size: 8px;
-	}/* Firefox 19+ */
-	:-moz-placeholder{
-		font-size: 8px;
-	}/* Firefox 18- */
-
-	:-ms-input-placeholder{
-		font-size: 8px;
+	:-moz-placeholder {
+	    font-size: 8px;
 	}
-	#modal_sale .sum{
-		font-size: 8px;
+	:-ms-input-placeholder {
+	    font-size: 8px;
 	}
-	#modal_sale .pay, .delivery{
-		font-size: 8px;
+	#modal_sale .pay, #modal_sale .sum, .delivery {
+	    font-size: 8px;
 	}
-	.product_type{
-		font-size: 12px!important;
+	.product_type {
+	    font-size: 12px!important;
 	}
-	select,select option{
-		height: 25px;
-		font-size: 8px;
-	}
-	.modal-body label{
-		font-size: 8px;
-	}
-	.modal-footer{
-		padding: 10px;
-	}
-	.modal-footer input[type="submit"] {
+	select, select option {
 	    height: 25px;
 	    font-size: 8px;
 	}
-	body{
-		font-size: 9px;
+	.modal-body label {
+	    font-size: 8px;
 	}
-	.wrap_r{
-		width: 100%;
-		margin: 0;
+	.modal-footer {
+	    padding: 10px;
 	}
-	.info_shop h1{
-		font-size: 11px;
-		margin: 0;
+	.modal-footer input[type=submit] {
+	    height: 25px;
+	    font-size: 8px;
+	}
+	body {
+	    font-size: 9px;
+	}
+	.wrap_r {
+	    width: 100%;
+	    margin: 0;
+	}
+	.info_shop h1 {
+	    font-size: 11px;
+	    margin: 0;
 	}
 	.info_shop h2 {
 	    margin-top: 8px;
@@ -571,31 +535,31 @@
 	.info_shop {
 	    height: 60px;
 	}
-	.four_steps h5, .five_reasons h5{
-		font-size: 12px;
+	.five_reasons h5, .four_steps h5 {
+	    font-size: 12px;
 	}
-	.menu li{
-		font-size: 13px;
+	.menu li {
+	    font-size: 13px;
 	}
 	.info_honey h3 {
-		font-size: 15px;
+	    font-size: 15px;
 	}
-	.reason h6{
-		font-size: 8px;
+	.reason h6 {
+	    font-size: 8px;
 	}
-	.reason p{
-		padding-left: 13px;
-		font-size: 5px;
+	.reason p {
+	    padding-left: 13px;
+	    font-size: 5px;
 	}
-	.five_reasons img{
-		display: none;
+	.five_reasons img {
+	    display: none;
 	}
-	.five_reasons{
-		margin: 0;
+	.five_reasons {
+	    margin: 0;
 	}
-	footer div{
-		line-height: 30px;
-		font-size: 12px;
+	footer div {
+	    line-height: 30px;
+	    font-size: 12px;
 	}
 	.reason {
 	    height: 55px;
